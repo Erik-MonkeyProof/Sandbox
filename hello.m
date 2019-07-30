@@ -1,5 +1,5 @@
-function hello()
+function hello(name)
 
-disp('Hello world!')
+fprintf(1, 'Hello %s!', name);
 
 end
